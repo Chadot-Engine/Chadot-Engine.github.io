@@ -1,0 +1,66 @@
+[
+  {
+    "binary_hash": "95f6e24bbff0f937d5a26eee86123da9a80cc1d171048441c035c6ce97486ef0",
+    "release_id": 2008,
+    "release_version": "4.8 R5",
+    "platform": "Windows",
+    "personal_use": true,
+    "commercial_use": true
+  },
+   {
+    "binary_hash": "d3a83ac5f4267373d9a1f742e9e083cb94753ee3110ef0ba07cb736b5c183a51",
+    "release_id": 2009,
+    "release_version": "4.8 R5",
+    "platform": "Windows",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "1e578a01b3134fe95d2e5a2c88414a188b6e4a31186c34872c0cc66f1887f2de",
+    "release_id": 2006,
+    "release_version": "4.8 R4",
+    "platform": "Windows",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "e1fa0e1b083d499fb1f161dc1385b448af0bd8b4f264a45d4d3b35d680e0b32e",
+    "release_id": 2007,
+    "release_version": "4.8 R4",
+    "platform": "Windows",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "ec03da562c5415a57e4cd1bfa79e688e8474e1e8edf10405f3a17bc8fe198c06",
+    "release_id": 3100,
+    "release_version": "4.8 R4",
+    "platform": "Linux",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "c0548bf7a2f1e1839ba9268773943fa7767649e5de79499da5ef09b9ac8c8b1b",
+    "release_id": 3101,
+    "release_version": "4.8 R4",
+    "platform": "Linux",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "b7fef745764ed74d83734317c8953e0157b32114cab5aaa6ef34931a7ee5ec47",
+    "release_id": 7005,
+    "release_version": "4.8 R4",
+    "platform": "macOS",
+    "personal_use": true,
+    "commercial_use": true
+  },
+  {
+    "binary_hash": "c4c6ba0df0090dd05400adc0cd6619f604060bb571136c988f2e4f853b8e6d43",
+    "release_id": 7006,
+    "release_version": "4.8 R4",
+    "platform": "macOS",
+    "personal_use": true,
+    "commercial_use": true
+  }
+]
