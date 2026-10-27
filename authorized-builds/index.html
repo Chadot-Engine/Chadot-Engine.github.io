@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta data-rh=true name=darkreader-lock>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chadot Engine :: Release Registry</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+  <div class="app">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">
+          <img src="/icon.svg" alt="">
+        </div>
+        <div class="brand-text">
+          <h1>Chadot Engine Release Registry</h1>
+          <p>Authorized Builds &amp; Usage Rights</p>
+        </div>
+      </div>
+      <div class="status-chip is-loading" id="dbStatus">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="dbStatusText">Connecting…</span>
+      </div>
+    </header>
+    <main class="app-main">
+      <section class="search-panel" aria-labelledby="searchLabel">
+        <label class="field-label" id="searchLabel" for="searchInput">Search Registry</label>
+        <div class="search-field">
+          <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+          <input class="search-input" id="searchInput" type="text" placeholder="Enter Binary SHA-256 Hash Here" autocomplete="off" spellcheck="false" autocapitalize="off" aria-describedby="resultCount">
+          <button class="clear-btn" id="clearSearch" type="button" hidden aria-label="Clear search">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="search-meta">
+          <span id="resultCount" aria-live="polite">Awaiting Registry…</span>
+          <span class="search-hint"><kbd>/</kbd> Focus <kbd>Esc</kbd> Clear</span>
+        </div>
+      </section>
+      <section class="verdict" id="verdict" aria-live="polite" hidden></section>
+      <section class="registry-panel" aria-label="Registry Entries">
+        <div class="panel-head" id="tableHead">
+          <span>Binary Hash</span>
+          <span>Release ID</span>
+          <span>Version</span>
+          <span>Platform</span>
+          <span>Personal</span>
+          <span>Commercial</span>
+        </div>
+        <div class="registry-body" id="registryBody"></div>
+        <div class="panel-foot" id="panelFoot">
+          <p class="page-info" id="pageInfo"></p>
+          <nav class="pager" id="pager" aria-label="Pagination"></nav>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script> 
+  </body>
+</html>
+
+<!-- Glad to see you here ;) -->
